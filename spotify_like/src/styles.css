@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --green: #1db954;
+    --dark-red: #323232;
+    --black: #000000;
+    --white: #FFFFFF;
+    --black2: #181818;
+    --orange: #CF9859;
+    --light-orange: #e7ac6c;
+    --pink: #db8795;
+    --dark-pink: #C94A62;
+    --cream: #f5e1be;
+    --mint: #008081;
+    --purple: #520e74;
+
+    --font-size-1: 1rem;
+    --font-size-2: 1.2rem;
+    --font-size-3: 1.8rem;
+    --font-size-4: 62.5%;
+
+    --shadow-1: rgb(0 0 0/ 35%) 0px 8px 24px;
+    --shadow-2: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    --border-radious-1: .25rem;
+    --border-radious-2: .5rem;
+
+    --primary-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Poppins', sans-serif;
+
+    --animation-1: 200ms;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--cream);
+    font-family: var(--primary-font);
+    font-size: var(--font-size-1);
+    color: var(--black);
+}
+
+input,
+button {
+    cursor: pointer;
+    font-family: var(--font-family-1);
+}
+
+button:disabled {
+    opacity: .5;
+}

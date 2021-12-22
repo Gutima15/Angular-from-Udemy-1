@@ -5,11 +5,12 @@
     --black: #000000;
     --white: #FFFFFF;
     --black2: #181818;
-    --orange: #CF9859;
+    --orange: rgb(207, 152, 89);
     --light-orange: #e7ac6c;
     --pink: #db8795;
     --dark-pink: #C94A62;
     --cream: #f5e1be;
+    --dark-cream: #f0c375;
     --mint: #008081;
     --purple: #520e74;
 
@@ -21,8 +22,8 @@
     --shadow-1: rgb(0 0 0/ 35%) 0px 8px 24px;
     --shadow-2: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
-    --border-radious-1: .25rem;
-    --border-radious-2: .5rem;
+    --border-radius-1: .25rem;
+    --border-radius-2: .5rem;
 
     --primary-font: 'Montserrat', sans-serif;
     --secondary-font: 'Poppins', sans-serif;
@@ -34,7 +35,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--cream);
+    background-color: var(--dark-cream);
     font-family: var(--primary-font);
     font-size: var(--font-size-1);
     color: var(--black);
